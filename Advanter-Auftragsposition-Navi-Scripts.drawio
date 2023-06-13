@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T13:12:15.152Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UxYvIPRhe4eyF-iDuGgT" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T13:48:55.689Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="O1Xd58P33yHuX04XeipW" version="21.3.7" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="1859" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -149,7 +149,7 @@
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-27" value="N_AKT_DS_alle_aufrufen" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.045454545454545456;fontFamily=Tahoma;" parent="1" vertex="1">
           <mxGeometry x="240" y="438" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="arC6BPyS2dzSBOW8VH1Y-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Tahoma;" edge="1" parent="1" target="arC6BPyS2dzSBOW8VH1Y-19">
+        <mxCell id="arC6BPyS2dzSBOW8VH1Y-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Tahoma;" edge="1" parent="1" target="arC6BPyS2dzSBOW8VH1Y-92">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="800" y="458.0588235294117" as="sourcePoint" />
           </mxGeometry>
@@ -237,7 +237,7 @@
           <mxGeometry x="57" y="200" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-17" value="GZU Layout Liste" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#028f4f;strokeColor=#2D7600;fontColor=#ffffff;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="1410" y="340" width="182" height="40" as="geometry" />
+          <mxGeometry x="1180" y="340" width="182" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-21" value="Suche alle Positionen zum Auftrag" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Tahoma;" parent="1" vertex="1">
           <mxGeometry x="1010" y="340" width="180" height="40" as="geometry" />
@@ -258,22 +258,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-26" value="Filter 2023 Eingrenzen eingeblendete Positionen zum aktuellen Beleg" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="1180" y="340" width="240" height="40" as="geometry" />
+          <mxGeometry x="1350" y="340" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-19" value="GTRR BELEG_Positionen&lt;br&gt;AlleFürDiesenBeleg" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="970" y="437.75" width="180" height="40" as="geometry" />
+          <mxGeometry x="1010" y="437.75" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="arC6BPyS2dzSBOW8VH1Y-20" value="?" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="437.75" width="240" height="40" as="geometry" />
+        <mxCell id="arC6BPyS2dzSBOW8VH1Y-20" value="Filter Ausschliessen ausgeblendete Positionen akt. Beleg bei Bedarf 2023" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="437.75" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-21" value="GZU Layout Liste" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#028f4f;strokeColor=#2D7600;fontColor=#ffffff;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="437.75" width="180" height="40" as="geometry" />
+          <mxGeometry x="1180" y="437.75" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="arC6BPyS2dzSBOW8VH1Y-24" value="SRT nach Pos Nr." style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=dots;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="437.75" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="arC6BPyS2dzSBOW8VH1Y-25" value="GZU orig, DS" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=dots;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="437.75" width="170" height="40" as="geometry" />
+        <mxCell id="arC6BPyS2dzSBOW8VH1Y-25" value="GZU ATPOS orig. &lt;br&gt;in Fundmenge" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=dots;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="437.75" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-32" value="Auftragsposition KAR_Global (16)" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#0285cd;fontColor=#ffffff;strokeColor=#006EAF;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="350" y="538" width="150" height="40" as="geometry" />
@@ -299,9 +296,6 @@
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-66" value="Textbaustein&lt;br&gt;Initialisieren" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="1410" y="540" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="arC6BPyS2dzSBOW8VH1Y-67" value="SRT nach Pos Nr." style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=dots;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="540" width="170" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Tahoma;" edge="1" parent="1" source="arC6BPyS2dzSBOW8VH1Y-70" target="arC6BPyS2dzSBOW8VH1Y-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -313,6 +307,15 @@
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-72" value="Go to Record&lt;br&gt;[First]" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=dots;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="1690" y="615" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="arC6BPyS2dzSBOW8VH1Y-89" value="Sub-Layout&lt;br&gt;(Fokus,Panel,Popover)" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=dots;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="340" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="arC6BPyS2dzSBOW8VH1Y-91" value="SRT nach&lt;br&gt;Pos Nr." style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=dots;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="540" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="arC6BPyS2dzSBOW8VH1Y-92" value="orig. DS&lt;br&gt;merken" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=dots;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="941" y="438" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
