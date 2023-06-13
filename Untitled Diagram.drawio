@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T07:22:10.192Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="z1aqRUZJQaHRxiVY0_xP" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T07:26:29.897Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CuwgEDkCv8axXvTMjoQt" version="21.3.7" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="1646" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -17,46 +17,47 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-12" value="ALLE" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=5.89;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="87" y="502" width="130" height="40" as="geometry" />
+          <mxGeometry x="87" y="582" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XxZq_N7S6UOtmdN4iqu-27" target="9XxZq_N7S6UOtmdN4iqu-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-27" value="N_AKT_DS_alle_aufrufen" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.045454545454545456;" vertex="1" parent="1">
-          <mxGeometry x="280" y="565" width="220" height="40" as="geometry" />
+          <mxGeometry x="280" y="645" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-28" value="GZU Alle DS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.045454545454545456;" vertex="1" parent="1">
-          <mxGeometry x="600" y="565" width="220" height="40" as="geometry" />
+          <mxGeometry x="600" y="645" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XxZq_N7S6UOtmdN4iqu-31" target="9XxZq_N7S6UOtmdN4iqu-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-31" value="Positionen" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=5.89;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="87" y="572" width="130" height="40" as="geometry" />
+          <mxGeometry x="87" y="652" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-33" value="GZU Layout Liste" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1282" y="495" width="182" height="40" as="geometry" />
+          <mxGeometry x="1282" y="575" width="182" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-34" value="Suche alle Positionen zum Auftrag" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="886" y="495" width="178" height="40" as="geometry" />
+          <mxGeometry x="886" y="575" width="178" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-37" value="Filter 2023 Eingrenzen eingeblendete Positionen zum aktuellen Beleg" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1052" y="495" width="240" height="40" as="geometry" />
+          <mxGeometry x="1052" y="575" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-47" value="GZU Alle DS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.045454545454545456;" vertex="1" parent="1">
-          <mxGeometry x="600" y="640" width="220" height="40" as="geometry" />
+          <mxGeometry x="600" y="720" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-49" value="Auftragsposition MOD nur Initialisieren (…)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="680" width="560" height="50" as="geometry" />
+          <mxGeometry x="420" y="760" width="560" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.985;exitY=0.536;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9XxZq_N7S6UOtmdN4iqu-56" target="9XxZq_N7S6UOtmdN4iqu-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1198" y="281" />
-              <mxPoint x="1240" y="281" />
-              <mxPoint x="1240" y="240" />
-              <mxPoint x="260" y="240" />
+              <mxPoint x="1198" y="130" />
+              <mxPoint x="1240" y="130" />
+              <mxPoint x="1240" y="170" />
+              <mxPoint x="260" y="170" />
               <mxPoint x="260" y="200" />
+              <mxPoint x="280" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -64,34 +65,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-60" value="KAR 3 Posliste" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=5.89;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="87" y="400" width="130" height="40" as="geometry" />
+          <mxGeometry x="87" y="480" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="9XxZq_N7S6UOtmdN4iqu-62" target="9XxZq_N7S6UOtmdN4iqu-63" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-62" value="Advanter KAR Scripts" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.045454545454545456;" vertex="1" parent="1">
-          <mxGeometry x="290" y="400" width="220" height="40" as="geometry" />
+          <mxGeometry x="290" y="480" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-63" value="N_KAR_1" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="540" y="400" width="108" height="40" as="geometry" />
+          <mxGeometry x="540" y="480" width="108" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-64" value="N_KAR_Global" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="640" y="400" width="140" height="40" as="geometry" />
+          <mxGeometry x="640" y="480" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9XxZq_N7S6UOtmdN4iqu-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.992;exitY=0.433;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.164;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9XxZq_N7S6UOtmdN4iqu-65" target="9XxZq_N7S6UOtmdN4iqu-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="417" />
+              <mxPoint x="920" y="380" />
+              <mxPoint x="840" y="380" />
+              <mxPoint x="840" y="130" />
+              <mxPoint x="888" y="130" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-65" value="Auftragsposition KAR_Global" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="770" y="400" width="130" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9XxZq_N7S6UOtmdN4iqu-66" value="Auftrag KAR_Global" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="890" y="400" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9XxZq_N7S6UOtmdN4iqu-67" value="Auftrag LAY (3)" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="990" y="400" width="130" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9XxZq_N7S6UOtmdN4iqu-68" value="Auftrag LAY Position (X)" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="400" width="110" height="40" as="geometry" />
+          <mxGeometry x="770" y="480" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-69" value="Auftrpos" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="310" width="1420" height="50" as="geometry" />
+          <mxGeometry x="60" y="390" width="1420" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-70" value="Advanter" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="507" y="30" width="200" height="50" as="geometry" />
@@ -111,11 +114,11 @@
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XxZq_N7S6UOtmdN4iqu-45" target="9XxZq_N7S6UOtmdN4iqu-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9XxZq_N7S6UOtmdN4iqu-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.155;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9XxZq_N7S6UOtmdN4iqu-51" target="9XxZq_N7S6UOtmdN4iqu-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-51" value="N_KAR&lt;br&gt;_Global" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="611" y="110" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9XxZq_N7S6UOtmdN4iqu-52" value="Auftragsposition KAR_Global" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="750" y="110" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-54" value="Auftrag KAR_Global" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="870" y="110" width="110" height="40" as="geometry" />
@@ -127,28 +130,28 @@
           <mxGeometry x="1090" y="110" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-1" value="Positionen" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=5.89;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="87" y="180" width="130" height="40" as="geometry" />
+          <mxGeometry x="87" y="270" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-17" value="GZU Layout Liste" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1372" y="180" width="182" height="40" as="geometry" />
+          <mxGeometry x="1372" y="270" width="182" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-21" value="Suche alle Positionen zum Auftrag" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="976" y="180" width="178" height="40" as="geometry" />
+          <mxGeometry x="976" y="270" width="178" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-22" value="GZU Layout EXT Positionen" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.045454545454545456;" vertex="1" parent="1">
-          <mxGeometry x="280" y="180" width="220" height="40" as="geometry" />
+          <mxGeometry x="280" y="270" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XxZq_N7S6UOtmdN4iqu-1" target="9XxZq_N7S6UOtmdN4iqu-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-25" value="GZU Position von AT oder neue Pos anzeigen (Schlüssel AT)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.045454545454545456;" vertex="1" parent="1">
-          <mxGeometry x="750" y="180" width="206" height="40" as="geometry" />
+          <mxGeometry x="750" y="270" width="206" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XxZq_N7S6UOtmdN4iqu-22" target="9XxZq_N7S6UOtmdN4iqu-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-26" value="Filter 2023 Eingrenzen eingeblendete Positionen zum aktuellen Beleg" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1142" y="180" width="240" height="40" as="geometry" />
+          <mxGeometry x="1142" y="270" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
