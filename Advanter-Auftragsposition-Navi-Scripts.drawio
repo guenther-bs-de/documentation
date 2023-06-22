@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-22T08:27:07.792Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MsmYC1xlqou-7NR4ZohT" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-22T08:30:28.189Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="plIkA7JStPpDb9-DPkuR" version="21.3.8" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="1886" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -79,7 +79,7 @@
           <mxGeometry x="10" y="25" width="930" height="175" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-84" value="Detail" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Tahoma;fillColor=#616970;strokeColor=#666666;fontColor=#e6e6e6;swimlaneFillColor=none;" parent="1" vertex="1" collapsed="1">
-          <mxGeometry x="370" y="845" width="130" height="30" as="geometry">
+          <mxGeometry x="363" y="935" width="130" height="30" as="geometry">
             <mxRectangle x="370" y="845" width="770" height="145" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -120,7 +120,7 @@
           <mxGeometry x="470" y="90" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-69" value="" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;size=29.333391462053555;container=1;fontFamily=Tahoma;recursiveResize=0;" parent="1" vertex="1">
-          <mxGeometry x="745" y="690" width="930" height="56" as="geometry">
+          <mxGeometry x="738" y="780" width="930" height="56" as="geometry">
             <mxRectangle x="485" y="595" width="50" height="56" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -180,7 +180,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-47" value="GZU Layout Liste" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.045454545454545456;fillColor=#028f4f;strokeColor=#2D7600;fontColor=#ffffff;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="240" y="698" width="220" height="40" as="geometry" />
+          <mxGeometry x="233" y="788" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9XxZq_N7S6UOtmdN4iqu-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Tahoma;" parent="1" source="9XxZq_N7S6UOtmdN4iqu-60" target="9XxZq_N7S6UOtmdN4iqu-63" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -286,46 +286,46 @@
           <mxGeometry x="1580" y="546" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-32" value="Auftragsposition KAR_Global (16)" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#0285cd;fontColor=#ffffff;strokeColor=#006EAF;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="610" y="698" width="150" height="40" as="geometry" />
+          <mxGeometry x="603" y="788" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-35" value="Auftragsposition MOD&lt;br&gt;nur Initialisieren (…)" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#0285cd;strokeColor=#006EAF;fontColor=#ffffff;fontFamily=Tahoma;" parent="1" vertex="1">
           <mxGeometry x="840" y="383" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-54" value="Auftrag LAY Posliste" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.045454545454545456;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="130" y="790" width="220" height="40" as="geometry" />
+          <mxGeometry x="123" y="880" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Tahoma;" parent="1" source="arC6BPyS2dzSBOW8VH1Y-55" target="arC6BPyS2dzSBOW8VH1Y-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-55" value="Layout Auswahl" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="360" y="790" width="150" height="40" as="geometry" />
+          <mxGeometry x="353" y="880" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-58" value="Globale Abfrage&lt;br&gt;Preisliste setzen" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="500" y="790" width="140" height="40" as="geometry" />
+          <mxGeometry x="493" y="880" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-59" value="SRT Gruppen setzen" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#f1ecf4;strokeColor=#9673a6;fillStyle=auto;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="630" y="790" width="170" height="40" as="geometry" />
+          <mxGeometry x="623" y="880" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-66" value="Textbaustein&lt;br&gt;Initialisieren" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="1670" y="700" width="140" height="40" as="geometry" />
+          <mxGeometry x="1663" y="790" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Tahoma;fontSize=12;fillColor=#f1ecf4;strokeColor=#9673a6;fillStyle=auto;" parent="1" source="arC6BPyS2dzSBOW8VH1Y-70" target="arC6BPyS2dzSBOW8VH1Y-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-70" value="SRT nach Pos Nr." style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.045454545454545456;fillColor=#f1ecf4;strokeColor=#9673a6;fontColor=default;fillStyle=auto;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="790" width="220" height="40" as="geometry" />
+          <mxGeometry x="1313" y="880" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-71" value="Sort Records" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#f1ecf4;strokeColor=#9673a6;fillStyle=auto;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="1570" y="790" width="120" height="40" as="geometry" />
+          <mxGeometry x="1563" y="880" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-72" value="Go to Record&lt;br&gt;[First]" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#f1ecf4;strokeColor=#9673a6;fillStyle=auto;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="1680" y="790" width="110" height="40" as="geometry" />
+          <mxGeometry x="1673" y="880" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-89" value="Bei LFP + Neue DS&lt;br&gt;Artikelauswahl" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#ecf4eb;strokeColor=#82b366;fillStyle=auto;fontFamily=Tahoma;" parent="1" vertex="1">
           <mxGeometry x="1660" y="383" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-91" value="SRT nach&lt;br&gt;Pos Nr." style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#f1ecf4;strokeColor=#9673a6;fillStyle=auto;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="1800" y="700" width="90" height="40" as="geometry" />
+          <mxGeometry x="1793" y="790" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="arC6BPyS2dzSBOW8VH1Y-92" value="orig. DS&lt;br&gt;merken" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;fillColor=#f1ecf4;strokeColor=#9673a6;fillStyle=auto;fontFamily=Tahoma;" parent="1" vertex="1">
           <mxGeometry x="941" y="546" width="80" height="40" as="geometry" />
@@ -440,13 +440,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZaYcOl2XTdaOfuIzKJ6G-28" value="Darstellung" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=13;arcSize=0;" parent="1" vertex="1">
-          <mxGeometry x="57" y="698" width="130" height="40" as="geometry" />
+          <mxGeometry x="50" y="788" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZaYcOl2XTdaOfuIzKJ6G-44" value="J" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ZaYcOl2XTdaOfuIzKJ6G-41" target="9XxZq_N7S6UOtmdN4iqu-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="620" />
-              <mxPoint x="710" y="620" />
+              <mxPoint x="540" y="690" />
+              <mxPoint x="710" y="690" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -454,10 +454,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZaYcOl2XTdaOfuIzKJ6G-41" value="Darstellung?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="690" width="100" height="56" as="geometry" />
+          <mxGeometry x="483" y="780" width="100" height="56" as="geometry" />
         </mxCell>
         <mxCell id="ZaYcOl2XTdaOfuIzKJ6G-47" value="Eine Änderung der Darstellung triggert das GZU Layout Liste Script, wird aber auf GZU Alle DS umgeleitet werden." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;position2=0;size=10;position=0;base=20;" parent="1" vertex="1">
-          <mxGeometry x="130" y="640" width="340" height="58" as="geometry" />
+          <mxGeometry x="123" y="730" width="340" height="58" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
