@@ -1,0 +1,19 @@
+// FileMaker Custom Function: M_Serie_Termine
+// This function extracts dates of a repeating event from a JSON object formatted according to full calendar and rrule plugins.
+
+// Parameters:
+// jsonInput (text) - JSON representation of the repeating event
+
+// Returns:
+// Text - Date values as a multi-line return-delimited string
+
+Let ([
+    input = JSONParse ( jsonInput ) ;
+    startDate = input.start ;
+    rrule = input.rrule ;
+
+    // Parse the rule and generate the dates
+    dates = ExecuteSQL ( "SELECT date FROM RepeatRule WHERE rule = ?" ; "|" ; "" ; rrule )
+];
+TrimAll ( Substitute ( dates ; "|" ; Char ( 10 ) ) ; 1 ; 1 )
+)
