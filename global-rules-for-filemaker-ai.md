@@ -11,6 +11,21 @@ These rules establish guidelines that any AI should follow when performing tasks
    - Use descriptive, concise names that convey purpose without excessive length.
 
 2. When creating custom functions or calculations, ensure:
+   - Parameters for custom functions should start with a lowercase `p`, followed by a capitalized letter, and use CamelCase (e.g., `pParameterName`).
+   - Variables created within Let calculations should start with a lowercase `v`, followed by a capitalized letter, and use CamelCase (e.g., `vVariableName`).
+   - Spacing for parentheses and operators should use a single space. For calculations:
+
+     ```
+     Let (
+     [
+         vVariable = pParameter ;
+         vVariableTwo = pParameterTwo ;
+         vResult = vVariable + vVariableTwo
+     ];
+     vResult
+     )
+     ```
+
    - Minimal hardcoding—use parameters and modular design principles.
    - Clearly commented code with explanations of parameters and returned values.
 
