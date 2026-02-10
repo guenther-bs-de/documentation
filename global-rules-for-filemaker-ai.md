@@ -17,12 +17,17 @@ These rules establish guidelines that any AI should follow when performing tasks
 
      ```
      Let (
+
      [
+
          vVariable = pParameter ;
          vVariableTwo = pParameterTwo ;
          vResult = vVariable + vVariableTwo
+
      ];
+
      vResult
+
      )
      ```
 
