@@ -24,36 +24,102 @@ Script
 ### Variable name conventions
 
 - Standard variable name conventions
-  - Global var: `$$GlobalVariableName`
-  - Script var: `$ScriptVariableName`
-  - Let var: `vLetVariablename`
-  - CF-parameter var: `pParameterName`
-  - JSON key: `json_key_name`
-    - In some cases, for example 'JVars', variable names are used as json keys in which case the JSON key may look like `$ScriptVariableName` (inclusive of the `$` symbol!)
-
+  - Variable names MUST NOT use spaces or dots
+- Variable names MUST be UpperCamelCase   
+    - Global var: `$$GlobalVariableName`
+    - Script var: `$ScriptVariableName`
+  - a lowercase prefix must be used to identify temporary let vars and custom function parameters
+    - Let var: `vLetVariablename`
+    - CF-parameter var: `pParameterName`
+- Standard JSON key conventions
+  - JSON keys MUST NOT use dots
+  - JSON keys MUST be lower_snake_case: `json_key_name`
+- Certain variable names break these rules, for example
+  - in 'JVars' ("JSON variables")
+    - the names of the passed variable names are used 1:1 as json keys
+    - in this case the JSON keys use the variable naming conventions, 
+    - e.g. `$ScriptVariableName` (inclusive of the `$` symbol!)
+- Specific variable names 
+  - certain important script variables have a `_` prefix (so that they appear at the top of the watch list)
+      - `$_JSP` - the JSON Script Parameter read at the start of a script
+      - `$_JSR` - the JSON Script Result read directly after a script call
+      - `$_JParam` - the JSON Script Parameter to pass to a called script
+      - `$_JResult` - the JSON Script Result to pass back to the calling script
+  - Looping variables
+    - FileMaker loop
+       - `$Zähler` must be used for 1-based looping variable (e.g. for records, rows or repetitions)
+         - Script var: `$Zähler`
+         - Global var: `$$Zähler`
+         - Let var: `vZähler`
+         - CF-parameter var: `pZähler`
+         - JSON key: `zähler`
+       - `$ZählerMax` - Maximum allowed value (inclusive) for $Zähler
+    - JSON Loop
+       - `$Index` must be used for 0-based looping variable (e.g. for JSON Arrays)
+         - Script var: `$Index`
+         - Global var: `$$Index`
+         - Let var: `vIndex`
+         - CF-parameter var: `pIndex`
+         - JSON key: `index`
+       - $IndexCount or $IndexLength - Length of the (array) index = exclusive maximum value
+    - Nested looping variables MUST have a prefix to distinguish the different loops
+      - e.g. $RechnungZähler, $PosZähler, $ArrayIndex, $ArrayIndexLength/$ArrayLength
+  - Looping exit conditions
+    - The following exit conditions must be used
+    - FileMaker/1-based loop
+      - Script loop: `GetAsNumber ( $Zähler ) > GetAsNumber ( $ZählerMax )`, for example:
+      
+          Loop
+            Exit Loop If [GetAsNumber ( $Zähler ) > GetAsNumber ( $ZählerMax )]
+          End Loop
+        
+      - While loop: `GetAsNumber ( vZähler ) ≤ GetAsNumber ( $vählerMax )`, for example:
+        
+          While(
+          [
+          vResult = "" ;
+          vZähler = 1 ;
+          vZählerMax = ValueCount ( pElements )
+ 
+          ]; GetAsNumber ( vZähler ) ≤ GetAsNumber ( vZählerMax ) ;[
+ 
+          vValue = GetValue ( pElements ; vZähler ) ;
+          vResult = List ( vResult  ; func ( vValue ) ) ;
+ 
+          vZähler = vZähler + 1
+ 
+          ];
+ 
+          vResult
+ 
+          )
+    - JSON/0-based Loop
+      - Script loop: `GetAsNumber ( $Index ) ≥ GetAsNumber ( $IndexCount )`, for example:
+          Loop
+            Exit Loop If [GetAsNumber ( $Index ) ≥ GetAsNumber ( $IndexCount )]
+          End Loop
+      - While loop: `GetAsNumber ( vIndex ) < GetAsNumber ( vIndexCount )`, for example:
+          While(
+          [
+          vArray  = f ( pArray )
+          vResult = "" ;
+          vIndex = 0 ;
+          vIndexCount = ValueCount ( JSONListKeys( vArray ) )
+ 
+          ]; GetAsNumber ( vIndex ) < GetAsNumber ( vIndexCount ) ;[
+ 
+          vValue = JSONGetElement ( pArray ; vIndex ) ;
+          vResult = List ( vResult  ; func ( vValue ) ) ;
+ 
+          vIndex = vIndex + 1
+ 
+          ];
+ 
+          vResult
+ 
+          )
+   
 - Script variables (together with script parameter passing) should be prefered to Global variables in order to avoid scope problems / unclarity
-- Variable names must NOT use spaces or dots
-- JSON keys must NOT use dots
-
-  
-- `Zähler`
-  - The standard looping variable for 1-based operations
-  - Global var: `$$Zähler`
-  - Script var: `$Zähler`
-  - Let var: `vZähler`
-  - CF-parameter var: `pZähler`
-  - JSON key: `zähler`
-- `ZählerMax`
-  - The standard looping variable end for 1-based operations that include `$Zähler = $ZählerMax`
-- `Index`
-  - The standard looping variable for 0-based operations (primarily JSON arrays)
-  - Global var: `$$Index`
-  - Script var: `$Index`
-  - Let var: `vIndex`
-  - CF-parameter var: `pIndex`
-  - JSON key: `index`
-- `IndexCount`
-  - The standard looping variable end for 1-based operations that include `$Index = $IndexCount`
 
 
 ### Calculations and Custom Functions
